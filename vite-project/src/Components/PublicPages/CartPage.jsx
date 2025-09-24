@@ -76,7 +76,7 @@ const CartPage = () => {
                         {user && user.role === 'user' && (
                             <button
                             onClick={handleCheckout}
-                            className="mt-6 w-full bg-green-600 text-black py-2 rounded hover:bg-green-700 transition"
+                            className="mt-6 w-full bg-green-500 text-black py-2 rounded hover:bg-green-700 transition"
                             >
                             Proceed to Checkout
                             </button>
